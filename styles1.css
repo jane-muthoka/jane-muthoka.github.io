@@ -1,0 +1,77 @@
+
+/* styles.css */
+
+/* Color Palette */
+:root {
+    --primary-color: #DAD7CD;    /* Light Gray */
+    --secondary-color: #A3B18A;  /* Light Green */
+    --accent-color1: #588157;    /* Dark Green */
+    --accent-color2: #3A5A40;    /* Dark Olive Green */
+    --accent-color3: #344E41;    /* Dark Slate Gray */
+  }
+  
+  /* Update Navigation Bar and Social Links */
+  .navbar {
+    background-color: var(--primary-color);
+  }
+  
+  .social-links .nav-link img {
+    width: 24px;  /* Adjust the size of social icons */
+    height: 24px;
+  }
+  
+  /* Update Bio/Introduction Section */
+  #about {
+    background-color: var(--secondary-color);
+    padding: 50px 0;
+  }
+  
+  /* Update Projects Section */
+  #projects {
+    background-color: var(--primary-color);
+    padding: 50px 0;
+  }
+  
+  .card {
+    border: 1px solid var(--accent-color1);
+  }
+  
+  /* Update Blog Section */
+  #blog {
+    background-color: var(--secondary-color);
+    padding: 50px 0;
+  }
+  
+  /* Update Skills Section */
+  #skills {
+    background-color: var(--primary-color);
+    padding: 50px 0;
+  }
+  
+  .progress {
+    background-color: var(--accent-color2);
+  }
+  
+  .progress-bar {
+    background-color: var(--accent-color1);
+  }
+  
+  /* Update Download Resume Section */
+  #resume {
+    background-color: var(--secondary-color);
+    padding: 50px 0;
+  }
+  
+  /* Update Contact Section */
+  #contact {
+    background-color: var(--primary-color);
+    padding: 50px 0;
+  }
+  
+  /* Add Rounded Circle for Profile Picture */
+  .round-image {
+    width: 90px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
