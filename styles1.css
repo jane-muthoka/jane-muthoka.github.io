@@ -3,12 +3,13 @@
 
 /* Color Palette */
 :root {
-    --primary-color: #DAD7CD;    /* Light Gray */
-    --secondary-color: #A3B18A;  /* Light Green */
-    --accent-color1: #588157;    /* Dark Green */
-    --accent-color2: #3A5A40;    /* Dark Olive Green */
-    --accent-color3: #344E41;    /* Dark Slate Gray */
-  }
+  --primary-color: #F7D0CE;    /* Light Pink */
+  --secondary-color: #F49BBB;  /* Soft Pink */
+  --accent-color1: #F057A0;    /* Rose Pink */
+  --accent-color2: #D6336C;    /* Dark Pink */
+  --accent-color3: #A92C55;    /* Deep Pink */
+}
+
   
   /* Update Navigation Bar and Social Links */
   .navbar {
